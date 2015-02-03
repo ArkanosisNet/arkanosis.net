@@ -1,0 +1,150 @@
+<?php
+
+$lang = 'fr';
+$path = '../';
+
+$last_modified = 'Sun, 20 Jul 2008 20:36:13 GMT';
+$expires = 'Mon, 12 Oct 2009 20:36:13 GMT';
+$maj = '20 juillet 2009';
+
+$abstract = 'Didacticiel pour Mercurial';
+$keywords = 'Arkanosis, arkanosis, ArKaNoS!S, Ajka, ajka, jeremie, jérémie, roquet, roquet_j, high_b, thunderdrone, high_b_thunderdrone, mercurial, hg, dvcs, version, gestionnaire, didacticiel, tutoriel, tutorial, cours, apprendre';
+
+include $path . 'header.php';
+
+?>
+
+		<h1>Mercurial en 10 leçons</h1>
+
+		<p>Dernière mise à jour le <?= $maj ?></p>
+
+		<p>
+			Le but de ce didacticiel n'est pas de saisir toutes les subtilités de Mercurial, ni même d'en apercevoir les avantages par rapport à (par exemple) Subversion.
+		</p>
+		<p>
+			Il s'agit juste ici d'expliquer comment utiliser Mercurial d'une manière similaire à Subversion dans une architecture Client-Serveur (ce qui, rappelons-le, n'est pas le but premier d'un <acronym title="Distributed Version Control System">DVCS</acronym>).
+		</p>
+		<p>
+			Ce didacticiel s'adresse donc à de futurs ex-utilisateurs de Subversion.
+		</p>
+
+		<h2>Leçon 1 : Récupérer un projet</h2>
+		<p>
+			La commande <strong>svn co</strong> devient <strong>hg clone</strong>.
+		</p>
+		<p>
+			Un clonage s'effectue forcément à la racine d'un projet (pas dans un sous-répertoire) et entraine la copie conforme de celui-ci.<br />
+			Contrairement à un checkout <acronym title="Subversion">SVN</acronym>, un clone Mercurial est strictement identique à l'original, avec toutes les versions intermédiaires.
+		</p>
+
+		<h2>Leçon 2 : Créer une révision</h2>
+		<p>
+			La commande <strong>svn ci</strong> devient <strong>hg ci</strong>.<br />
+			Il n'y a pas de <strong>hg up</strong> ou équivalent à faire avant un <strong>hg ci</strong>.
+		</p>
+		<p>
+			<strong>Attention !</strong><br />
+			Contrairement à un commit <acronym title="Subversion">SVN</acronym> qui est envoyé au serveur (et donc partagé entre tous les contributeurs), un commit Mercurial est effectué en local.
+		</p>
+		<p>
+			Par conséquent, il est parfaitement possible de commiter du code non fonctionnel (éventuellement avec des régressions), puisque les modifications ne sont visibles que par l'utilisateur local.
+		</p>
+		<p>
+			Cela permet de versionner son code plus régulièrement au cours du développement en éliminant les trois principaux inconvénients d'un commit <acronym title="Subversion">SVN</acronym> : le risque de <em>casser</em> le dépôt, la nécessité de <strong>svn up</strong> au préalable (long, risque de conflit...), et le temps de l'opération (un commit Mercurial est local, donc instantané).
+		</p>
+
+		<h2>Leçon 3 : Récupérer des révisions partagées</h2>
+		<p>
+			La commande <strong>svn up</strong> devient <strong>hg fetch</strong>.
+		</p>
+		<p>
+			Cette opération récupère sur le serveur les modifications partagées par tous les contributeurs, et les fusionne avec la version locale.
+		</p>
+		<p>
+			Avec <acronym title="Subversion">SVN</acronym>, aucune action n'était indispensable avant un <strong>svn up</strong>.<br />
+			Avec Mercurial, il faut <strong>hg ci</strong> avant de <strong>hg fetch</strong>.
+			De cette manière, en cas de conflit lors de la fusion avec la version locale, il y aura toujours une révision commitée contenant les modifications locales.
+		</p>
+
+		<h2>Leçon 4 : Partager une (ou plusieurs) révisions</h2>
+		<p>
+			Il faut utiliser la nouvelle commande <strong>hg push</strong>.
+		</p>
+		<p>
+			Cette manœuvre peut être considérée comme un <em>super commit</em>.
+			Toutes les révisions commitées sont envoyées au serveur (et donc partagées entre tous les contributeurs).
+		</p>
+		<p>
+			Avec <acronym title="Subversion">SVN</acronym>, il faut <strong>svn up</strong> avant de <strong>svn ci</strong>.<br />
+			Avec Mercurial, il faut <strong>hg fetch</strong> avant de <strong>hg push</strong>.
+		</p>
+
+		<h2>Leçon 5 : Commandes qui ne changent pas</h2>
+		<ul>
+			<li><strong>svn st</strong> devient <strong>hg st</strong></li>
+			<li><strong>svn log</strong> devient <strong>hg log</strong> (penser à l'option <strong>-v</strong> pour les détails)</li>
+			<li><strong>svn diff</strong> devient <strong>hg diff</strong></li>
+			<li><strong>svn blame</strong> devient <strong>hg blame</strong></li>
+			<li><strong>svn add</strong> devient <strong>hg add</strong></li>
+			<li><strong>svn rm</strong> devient <strong>hg rm</strong></li>
+			<li><strong>svn cp</strong> devient <strong>hg cp</strong></li>
+			<li><strong>svn mv</strong> devient <strong>hg mv</strong> (mais il s'agit désormais d'un <em>vrai</em> déplacement)</li>
+			<li><strong>svn revert</strong> devient <strong>hg revert</strong></li>
+			<li><strong>svn help</strong> devient <strong>hg help</strong> :p</li>
+		</ul>
+
+		<h2>Leçon 6 : Commandes qui changent de nom</h2>
+		<ul>
+			<li><strong>svn export</strong> devient <strong>hg archive</strong> (et offre des fonctionnalités supplémentaires comme la compression...)</li>
+		</ul>
+
+		<h2>Leçon 7 : Faux amis</h2>
+		<ul>
+			<li><strong>hg up</strong> n'est pas équivalent à <strong>svn up</strong> (mais permet toujours de revenir à une révision antérieure)</li>
+			<li><strong>hg co</strong> n'est pas équivalent à <strong>svn co</strong> (en fait, c'est un alias de <strong>hg up</strong>)</li>
+			<li><strong>hg export</strong> n'est pas équivalent à <strong>svn export</strong></li>
+		</ul>
+
+		<h2>Leçon 8 : Nouvelles commandes</h2>
+		<ul>
+			<li><strong>hg id</strong> affiche la révision courante</li>
+			<li><strong>hg addremove</strong> ajoute les fichiers non versionnés et cesse de versionner les fichiers supprimés du système de fichiers (penser à l'option <strong>-s</strong> pour détecter les fichiers déplacés)</li>
+			<li><strong>hg in</strong> affiche les révisions qui seront fusionnées lors d'un <strong>hg fetch</strong></li>
+			<li><strong>hg out</strong> affiche les révisions qui seront partagées lors d'un <strong>hg push</strong></li>
+			<li><strong>hg rollback</strong> annule le dernier commit local (pas encore partagé)</li>
+			<li><strong>hg backout</strong> crée une nouvelle révision qui annule les modifications d'une autre révision, et qui peut être pushée pour propager l'annulation (penser à l'option <strong>--merge</strong> si la révision à annuler n'est pas la dernière)</li>
+			<li><strong>hg tag</strong> crée un tag (alias de révision), auquel il est possible de revenir par la suite avec <strong>hg up</strong></li>
+			<li><strong>hg tags</strong> affiche tous les tags (alias de révision), auquels il est possible de revenir par la suite avec <strong>hg up</strong></li>
+			<li><strong>hg bundle</strong> crée une version compressée du dépôt Mercurial (penser à l'option <strong>--all</strong> pour que toutes les révisions soient inclues)</li>
+			<li><strong>hg unbundle</strong> décompresse une version compressée d'un dépôt Mercurial</li>
+		</ul>
+
+		<h2>Leçon 9 : Commandes non abordées dans ce didacticiel</h2>
+		<ul>
+			<li>hg init</li>
+			<li>hg pull</li>
+			<li>hg merge</li>
+			<li>hg import</li>
+			<li>hg branch</li>
+			<li>hg branches</li>
+			<li>hg heads</li>
+			<li>hg parents</li>
+			<li>hg bisect</li>
+			<li>hg recover</li>
+			<li>hg verify</li>
+			<li>hg serve</li>
+		</ul>
+
+		<h2>Leçon 10 : Rappel important</h2>
+		<p>
+			Comme indiqué au début de ce didacticiel, l'objectif est d'être capable d'utiliser Mercurial <em>rapidement</em>.
+			Par conséquent, les concepts sont simplifiés à l'extrème et très biaisés, et beaucoup de notions importantes (branches, distribution, recherche de bugs par dichotomie...) n'ont même pas été abordées.<br />
+			N'hésitez pas à lire la <a href="http://hgbook.red-bean.com/" title="Documention de Mercurial" lang="en">documentation de Mercurial</a> pour avoir une vision correcte du fonction et des avantages de ce <acronym title="Distributed Version Control System">DVCS</acronym>.
+		</p>
+
+<?php
+
+include $path . 'back.php';
+include $path . 'footer.php';
+
+?>

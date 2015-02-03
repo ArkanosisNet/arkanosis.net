@@ -1,0 +1,13 @@
+p
+{
+	text-align: justify;
+}
+p[lang="en"], p[lang="fr"], p[lang="de"], p[lang="cn"]
+{
+	color: gray;
+	font-style: italic;
+}
+del, .wip
+{
+	color: gray;
+}

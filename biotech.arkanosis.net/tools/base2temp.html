@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+
+	<head>
+		<title>Calcul de la température optimale</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<script language="javascript" type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+
+		<script type="text/javascript">
+			$(function() {
+				$('#form').submit(function() {
+					var sequence = $('#sequence').val().toUpperCase();
+					if (sequence.length == 0) {
+						return false;
+					}
+
+					window.location.href = window.location.href.split('#')[0] + '#!/' + sequence;
+
+					var temp = -4;
+					for (var charId = 0; charId < sequence.length; ++charId) {
+						var char = sequence.charAt(charId);
+						if (char == 'A' || char == 'T') {
+							temp += 2;
+						} else if (char == 'C' || char == 'G') {
+							temp += 4;
+						} else {
+							$('#temp').text('"' + char + '" n\'est pas une base nucléique valide.');
+							return false;
+						}
+					}
+
+					$('#temp').text('La température optimale pour la séquence "' + sequence + '" est de ' + temp + ' ℃');
+
+					return false;
+				});
+
+				var originalValue = '';
+
+				if (window.location.href.search('#!/') != -1) {
+					originalValue = decodeURIComponent(window.location.href).split('#!/')[1];
+					$('#sequence').val(originalValue);
+					$('#form').submit();
+				}
+			});
+		</script>
+	</head>
+
+	<body>
+		<form id="form">
+			<fieldset>
+				<legend>Calcul de la température optimale</legend>
+				<label for="sequence">Séquence nucléotidique</label>
+				<input type="text" id="sequence"/>
+				<input type="submit" value="Calculer"/>
+				<p id="temp" style="margin:0; padding-top:1em;">
+				</p>
+			</fieldset>
+		</form>
+
+		<p style="text-align: center;">Contact : <a href="mailto:as.denomme@outlook.com">as.denomme@outlook.com</a></p>
+
+	</body>
+
+</html>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://arkanosis.net/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/index_en.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/maj/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/curriculum/cv.pdf</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/etudes/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/entreprises/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/projets/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/firefox/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/mercurial/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/d/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/xmlns/troll/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/index.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://arkanosis.net/d/d_conference_20070715.pdf</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

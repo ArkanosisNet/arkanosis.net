@@ -1,0 +1,189 @@
+<?php
+
+$lang = 'en';
+$path = '../';
+
+$last_modified = 'Mon, 17 Apr 2006 20:36:13 GMT';
+$expires = 'Fri, 27 Jul 2007 15:36:14 GMT';
+$maj = 'June, 13 2009';
+
+$abstract = 'Arkanosis\' personal website';
+$keywords = 'Arkanosis, arkanosis, ArKaNoS!S, jeremie, jérémie, Jérémie, Jeremie, roquet, ROQUET, Roquet, rocquet, roquet_j, high_b, High_B, thunderdrone, Thunderdrone, high_b_thunderdrone';
+
+include $path . 'header.php'
+
+?>
+
+		<h1>Welcome to the website of Arkanosis (Jérémie Roquet)</h1>
+
+		<p xml:lang="fr" lang="fr">
+			Cette page est également disponible <a href="../" title="Version française de cette page" xml:lang="fr" lang="fr">en français</a>.
+		</p>
+
+		<p>
+			Hello,
+		</p>
+
+		<p>
+			I'm twenty-five, I'm a enthusiast computer scientist and a casual musician.<br />
+			My chosen fields of expertise are data compression, artificial intelligence (especially in video games) and natural language processing.
+		</p>
+
+		<p>
+			I gratuated from the <acronym title="École Pour l’Informatique et les Techniques Avancées">EPITA</acronym> and the university of Paris X in january 2009, I should get my dipoma of computer engineering and my master in natural language processing in a few months.<br />
+			Till then, I hold a scientific baccalauréat and a bachelor degree in computer science.<br />
+			I'm currently working at <a href="http://www.exalead.com/" title="Exalead's search engine">Exalead</a> as a natural language processing developer.
+		</p>
+
+		<h2 id="maj">Last updates</h2>
+		<dl>
+			<dt>June, 13 2009</dt>
+			<dd>
+				Updated <a href="http://www.facebook.com/arkanosis" title="Arkanosis' Facebook page">my Facebook's page</a> URL (a lot more readable since one may chose his username).<br />
+				Added the project pages for <a href="http://trac-hg.assembla.com/lcomp" title="lcomp">lcomp</a> and <a href="http://trac-hg.assembla.com/genbot" title="genbotIA">genbotIA</a><br />
+				Added this English version of the main page.<br />
+				Added a page for <a href="../maj" title="See the full list of this website's updates" xml:lang="fr" lang="fr">all this website's updates</a> (in French).<br />
+				Added a cascading style sheet (CSS) to make this website a bit more readable.<br />
+				Added the paragraph about <a href="#homonymes" title="Arkanosis' homonyms">my homonyms</a>.
+			</dd>
+			<dt>April, 30 2009</dt>
+			<dd>
+				It's my birthday. I'm now twenty-three.
+			</dd>
+		</dl>
+		<p>
+			<a href="../maj" title="See the full list of this website's updates" xml:lang="fr" lang="fr">Full list of this website's updates (in french)</a>
+		</p>
+
+		<h2 id="pages">This website's pages</h2>
+
+		<ul>
+			<li>Personal informations
+				<ul>
+					<li><a href="../curriculum/cv.pdf" title="Download Arkanosis' Curriculum Vitae (PDF, in French)" xml:lang="fr" lang="fr"><em>Curriculum Vitae</em></a> (PDF format, updated March, 28 2009, in French)</li>
+					<li><a href="../etudes" title="See Arkanosis' education (in French)" xml:lang="fr" lang="fr">My education (in French)</a></li>
+					<li><a href="../entreprises" title="See the companies Arkanosis worked for (in French)" xml:lang="fr" lang="fr">Companies I've worked for (in French)</a></li>
+					<li><a href="../projets" title="See Arkanosis' current projects (in French)" xml:lang="fr" lang="fr">Current projects (in French)</a></li>
+				</ul>
+			</li>
+			<li>Tutorials
+				<ul>
+					<li class="wip"><a href="../firefox" title="See Arkanosis' list of plugins for Mozilla Firefox (in French)" xml:lang="fr" lang="fr">List of plugins for Mozilla Firefox</a> (work in progress, in French)</li>
+					<li><a href="../mercurial" title="See Arkanosis' tutorial for Mercurial (in French)" xml:lang="fr" lang="fr">Tutorial for Mercurial</a> (in French)</li>
+				</ul>
+			</li>
+			<li>Courses
+				<ul>
+					<li class="wip">C++ course (work in progress, in French)</li>
+					<li><a href="../d" title="Read Arkanosis' D course">D course</a></li>
+					<li class="wip"><acronym title="Extensible HyperText Markup Language">XHTML</acronym> course (work in progress, in French)</li>
+				</ul>
+			</li>
+			<li>Reference documentations
+				<ul>
+					<li>Official <a href="http://freearc.org/" title="Site officiel de FreeArc">FreeArc</a> documentation (work in progress, in French)</li>
+					<li class="wip">Meta C++ programming language reference (work in progress)</li>
+					<li class="wip">Vulcain programming language reference (work in progress)</li>
+					<li><a href="../xmlns/troll" title="The Troll XML namespace">The Troll XML namespace</a></li>
+				</ul>
+			</li>
+			<li>Projects
+				<ul>
+					<li class="wip">Ajka Rewelaziom, electronic music project (work in progress)</li>
+				</ul>
+			</li>
+			<li>Selections
+				<ul>
+					<li class="wip">Music (work in progress)</li>
+					<li class="wip">Litterature (work in progress)</li>
+					<li class="wip">Graphical arts (work in progress)</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h2 id="externes">External pages</h2>
+
+		<ul>
+			<li>Facebook : <a href="http://www.facebook.com/arkanosis" title="Arkanosis' Facebook page">http://www.facebook.com/arkanosis</a></li>
+			<li>Delicious : <a href="http://delicious.com/Arkanosis" title="Arkanosis' Delicious page">http://delicious.com/Arkanosis</a></li>
+			<li>Wikipedia France : <a href="http://fr.wikipedia.org/wiki/Utilisateur:Arkanosis" title="Arkanosis' Wikipedia France page">http://fr.wikipedia.org/wiki/Utilisateur:Arkanosis</a></li>
+			<li>Viadeo : <a href="http://www.viadeo.com/recherche/profil/index.jsp?memberId=0025ifnxojcb5u8" title="Arkanosis' Viadeo page">http://www.viadeo.com/recherche/profil/index.jsp?memberId=0025ifnxojcb5u8</a></li>
+			<li>LinkedIn : <a href="http://www.linkedin.com/in/jroquet" title="Arkanosis' Linkedin page">http://www.linkedin.com/in/jroquet</a></li>
+			<li>SourceForge : <a href="http://sourceforge.net/users/arkanosis/" title="Arkanosis' Sourceforge page">http://sourceforge.net/users/arkanosis/</a></li>
+			<li>Assembla : <a href="http://www.assembla.com/user/pubshow/Arkanosis" title="Arkanosis' Assembla page">http://www.assembla.com/user/pubshow/Arkanosis</a></li>
+			<li>DSource : <a href="http://dsource.org/forums/profile.php?mode=viewprofile&amp;u=1563" title="Arkanosis' Dsource page">http://dsource.org/forums/profile.php?mode=viewprofile&amp;u=1563</a></li>
+			<li>Stack Overflow : <a href="http://stackoverflow.com/users/103856" title="Arkanosis' Stack Overflow page">http://stackoverflow.com/users/103856</a></li>
+			<li>Jamendo : <a href="http://www.jamendo.com/fr/user/Arkanosis/" title="Arkanosis' Jamendo page">http://www.jamendo.com/fr/user/Arkanosis/</a></li>
+			<li>Copaing : <a href="http://www.copaing.net/arkanosis/" title="Arkanosis' Copaing page">http://www.copaing.net/arkanosis/</a></li>
+			<li>Copainsdavant : <a href="http://copainsdavant.linternaute.com/membre/1738916/2875635028/jeremie_roquet/" title="Arkanosis' Copainsdavant page">http://copainsdavant.linternaute.com/membre/1738916/2875635028/jeremie_roquet/</a></li>
+			<li>Voisineo : <a href="http://www.voisineo.com/villejuif-94800/membre/arkanosis" title="Arkanosis' Voisineo page">http://www.voisineo.com/villejuif-94800/membre/arkanosis</a></li>
+			<li>FreeLunchDesign : <a href="http://icytower.freelunchdesign.com/userinfo.php?user=694" title="Arkanosis' Freelunchdesign page">http://icytower.freelunchdesign.com/userinfo.php?user=694</a></li>
+			<li>Scribd : <a href="http://www.scribd.com/Arkanosis" title="Arkanosis' Scribd page">http://www.scribd.com/Arkanosis</a></li>
+			<li><del>Personal page : <a href="http://etud.epita.fr/~roquet_j/" title="Arkanosis' personal page">http://etud.epita.fr/~roquet_j/</a> (Not available anymore)</del></li>
+		</ul>
+
+		<h2 id="mesprojets">My project's pages</h2>
+
+		<ul>
+			<li>BigCrunch (Data compressor and archiver written in C++) : <a href="http://bcrunch.online.fr/" title="BigCrunch">http://bcrunch.online.fr/</a></li>
+			<li>Vortex (Data compressor and archiver written in C#) : not yet available</li>
+			<li>lcomp (Text compressor written in C++) : <a href="http://trac-hg.assembla.com/lcomp" title="lcomp">http://trac-hg.assembla.com/lcomp</a></li>
+			<li>D²azel (Clone of Zelda 2D written in D) : <a href="http://dsource.org/projects/dazel/" title="D²azel">http://dsource.org/projects/dazel/</a></li>
+			<li>genbotIA (Artificial intelligence library for videogames written in C++ and Python) : <a href="http://trac-hg.assembla.com/genbot" title="genbotIA">http://trac-hg.assembla.com/genbot</a></li>
+			<li>Coucoucestnous (Website for a student travel for skiing) : <a href="http://jeremie.roquet.online.fr/index.php" title="CoucouCestNous">http://jeremie.roquet.online.fr/index.php</a></li>
+			<li><del>Noisette (List of freeware applications) : <a href="http://ta4f.online.fr/noisette/" title="Noisette">http://ta4f.online.fr/noisette/</a></del> (Closed because of spam)</li>
+			<li><del>XMAS 2006 (Website for a student event) : <a href="http://xmas.epita.fr/" title="XMAS 2006">http://xmas.epita.fr/</a></del></li>
+			<li><del>CodingZone (Javascript programming, hacking...) : no more valid address for now</del></li>
+			<li><del>Clan TA4F (Videogames team) : <a href="http://ta4f.online.fr/" title="Clan TA4F">http://ta4f.online.fr/</a></del> (Closed because of spam)</li>
+			<li><del>M.O.R.B.I.D.E. project (3D platforms video games written in Delphi) : <a href="http://ta4f.online.fr/morbide/" title="M.O.R.B.I.D.E. project">http://ta4f.online.fr/morbide/</a></del> (Closed because of spam)</li>
+		</ul>
+
+		<h2 id="projets">Pages that talk about my projects</h2>
+
+		<ul>
+			<li>MaximumCompression (BigCrunch) : <a href="http://www.maximumcompression.com/programs.php" title="MaximumCompression">http://www.maximumcompression.com/programs.php</a></li>
+			<li>Squeeze Chart (BigCrunch) : <a href="http://squeezechart.freehost.ag/main.html" title="Squeeze Chart">http://squeezechart.freehost.ag/main.html</a></li>
+			<li>CompressionMax (BigCrunch) : <a href="http://www.compressionmax.com/bigcrunch.html" title="CompressionMax">http://www.compressionmax.com/bigcrunch.html</a></li>
+			<li>Encode.ru (BigCrunch) : <a href="http://www.encode.ru/forums/index.php?action=vthread&amp;forum=1&amp;topic=138" title="Encode.ru">http://www.encode.ru/forums/index.php?action=vthread&amp;forum=1&amp;topic=138</a></li>
+			<li>7-Zip Open Discussion (BigCrunch) : <a href="http://sourceforge.net/forum/forum.php?thread_id=1591198&amp;forum_id=45797" title="7-Zip Open Discussion">http://sourceforge.net/forum/forum.php?thread_id=1591198&amp;forum_id=45797</a></li>
+			<li>ArcLib (D²azel) : <a href="http://www.dsource.org/projects/arclib" title="ArcLib">http://www.dsource.org/projects/arclib</a></li>
+		</ul>
+
+		<h2 id="rencontre">Websites on which you have chances to meet me</h2>
+
+		<ul>
+			<li>Encode.ru's forums (Data compression) : <a href="http://encode.ru/forum/" title="Encode.ru's forums">http://encode.ru/forum/</a></li>
+			<li>7-Zip's forums (File compressor and archiver) : <a href="http://sourceforge.net/forum/forum.php?forum_id=45797" title="7-Zip's forums">http://sourceforge.net/forum/forum.php?forum_id=45797</a></li>
+			<li>Génération MP3's forums (Mobile music players benchmarks) : <a href="http://forum.generationmp3.com/" title="Génération MP3's forums" xml:lang="fr" lang="fr">http://forum.generationmp3.com/</a></li>
+			<li>ZDNet's blog : <a href="http://www.zdnet.fr/actualites/informatique/" title="ZDNet's blog" xml:lang="fr" lang="fr">http://www.zdnet.fr/actualites/informatique/</a></li>
+			<li>Infos-Du-Net's forums : <a href="http://www.infos-du-net.com/forum/" title="Infos-Du-Net's forums" xml:lang="fr" lang="fr">http://www.infos-du-net.com/forum/</a></li>
+			<li>Alsacréations' blog : <a href="http://blog.alsacreations.com/" title="Alsacréations' blog" xml:lang="fr" lang="fr">http://blog.alsacreations.com/</a></li>
+			<li>Alsacréations' forums : <a href="http://forum.alsacreations.com/forum.php" title="Alsacréations' forums" xml:lang="fr" lang="fr">http://forum.alsacreations.com/forum.php</a></li>
+			<li>Maxthon's forums (Web browser) : <a href="http://forum.maxthon.com/" title="Maxthon's forums">http://forum.maxthon.com/</a></li>
+		</ul>
+
+		<h2 id="homonymes">My homonyms</h2>
+
+		<p>
+			Don't get it wrong, I'm not the only <em>Arkanosis</em> on the Internet.
+			I'm neither :
+		</p>
+		<ul>
+			<li>A belgian Airsoft player</li>
+			<li>Someone using a > 2 TiB RAID under Windows XP</li>
+		</ul>
+
+		<p>
+			Thanks for visiting,
+		</p>
+
+		<p>
+			Arkanosis
+		</p>
+
+<?php
+
+include $path . 'footer.php'
+
+?>
+
