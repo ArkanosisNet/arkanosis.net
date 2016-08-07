@@ -1,3 +1,5 @@
+AddType application/pgp-keys .asc
+
 Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
 
 RewriteEngine On
