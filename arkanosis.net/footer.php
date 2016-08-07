@@ -11,6 +11,20 @@
 				g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 			})();
 		</script>
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org",
+				"@type": "Person",
+				"givenName": "Jérémie",
+				"familyName": "Roquet",
+				"alternateName": "Arkanosis",
+				"jobTitle": "Artiste programmeur",
+				"gender": "http://schema.org/Male",
+				"birthDate": "1986-04-30",
+				"email": "jroquet@arkanosis.net",
+				"image": "https://arkanosis.net/images/arkanosis.jpg"
+			}
+		</script>
 		<noscript>
 			<p><img src="//analytics.arkanosis.net/piwik.php?idsite=1" style="border:0;" alt="" /></p>
 		</noscript>
