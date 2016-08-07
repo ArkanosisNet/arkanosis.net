@@ -19,6 +19,10 @@ include $path . 'header.php';
 		<dl>
 		<h2 id="maj">Dernières mises à jour</h2>
 		<dl>
+			<dt>août 2016</dt>
+			<dd>
+				Passage en HTTPS ; l'adresse canonique du site devient <a href="https://arkanosis.net/" title="Site d'Arkanosis">https://arkanosis.net/</a>.
+			</dd>
 			<dt>11 juin 2014</dt>
 			<dd>
 				Mise à jour de l'adresse email.<br />

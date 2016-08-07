@@ -33,19 +33,19 @@ include 'header.php';
 		</p>
 
 		<p>
-			Je consacre une partie de mon temps libre à des projets personnels ou collaboratifs, notamment à l'encyclopédie libre <a href="http://fr.wikipedia.org/" title="Encyclopédie libre Wikipédia">Wikipédia</a>, à la base de connaissances libre <a href="http://wikidata.org/" title="Base de connaissances libre Wikidata">Wikidata</a> et au compilateur de Python vers C++ <a href="http://shed-skin.blogspot.com/" title="Compilateur Shed Skin">Shed Skin</a>.
+			Je consacre une partie de mon temps libre à des projets personnels ou collaboratifs, notamment à l'encyclopédie libre <a href="https://fr.wikipedia.org/" title="Encyclopédie libre Wikipédia">Wikipédia</a>, à la base de connaissances libre <a href="https://wikidata.org/" title="Base de connaissances libre Wikidata">Wikidata</a>, au compilateur de Python vers C++ <a href="http://shedskin.github.io/" title="Compilateur Shed Skin">Shed Skin</a> et au logiciel de recherche de variants exomiques <a href="http://regovar.org/" title="Logiciel de recherche de variants exomiques REGOVAR" lang="fr">REGOVAR</a>.
 		</p>
 
 		<h2 id="maj">Dernières mises à jour</h2>
 		<dl>
+			<dt>août 2016</dt>
+			<dd>
+				Passage en HTTPS ; l'adresse canonique du site devient <a href="https://arkanosis.net/" title="Site d'Arkanosis">https://arkanosis.net/</a>.
+			</dd>
 			<dt>11 juin 2014</dt>
 			<dd>
 				Mise à jour de l'adresse email.<br />
 				Publication de la clef PGP.
-			</dd>
-			<dt>22 mars 2014</dt>
-			<dd>
-				Mise à jour du CV.
 			</dd>
 		</dl>
 		<p>
@@ -101,7 +101,7 @@ include 'header.php';
 		<h2 id="externes">Pages externes</h2>
 
 		<ul>
-			<li>Wikipédia francophone : <a href="http://fr.wikipedia.org/wiki/Utilisateur:Arkanosis" title="Page d'Arkanosis sur la Wikipédia francophone">http://fr.wikipedia.org/wiki/Utilisateur:Arkanosis</a></li>
+			<li>Wikipédia francophone : <a href="https://fr.wikipedia.org/wiki/Utilisateur:Arkanosis" title="Page d'Arkanosis sur la Wikipédia francophone">https://fr.wikipedia.org/wiki/Utilisateur:Arkanosis</a></li>
 			<li>Viadeo : <a href="http://www.viadeo.com/recherche/profil/index.jsp?memberId=0025ifnxojcb5u8" title="Page Viadeo de Jérémie Roquet">http://www.viadeo.com/recherche/profil/index.jsp?memberId=0025ifnxojcb5u8</a></li>
 			<li>LinkedIn : <a href="http://www.linkedin.com/in/jroquet" title="Page LinkedIn de Jérémie Roquet">http://www.linkedin.com/in/jroquet</a></li>
 			<li>Facebook : <a href="http://www.facebook.com/arkanosis" title="Page Facebook d'Arkanosis">http://www.facebook.com/arkanosis</a></li>
@@ -143,7 +143,7 @@ include 'header.php';
 		<ul>
 			<li>Forums de Encode.ru (Compression de données) : <a href="http://encode.ru/forum/" title="Forums de Encode.ru" xml:lang="en" lang="en">http://encode.ru/forum/</a></li>
 			<li>Forums de 7-Zip (Compresseur et archiveur de fichiers) : <a href="http://sourceforge.net/forum/forum.php?forum_id=45797" title="Forums de 7-Zip" xml:lang="en" lang="en">http://sourceforge.net/forum/forum.php?forum_id=45797</a></li>
-			<li>Bistro de Wikipédia (encyclopédie libre) : <a href="http://fr.wikipedia.org/wiki/Wikipédia:Le_Bistro" title="Bistro de Wikipédia">http://fr.wikipedia.org/wiki/Wikipédia:Le_Bistro</a></li>
+			<li>Bistro de Wikipédia (encyclopédie libre) : <a href="https://fr.wikipedia.org/wiki/Wikipédia:Le_Bistro" title="Bistro de Wikipédia">https://fr.wikipedia.org/wiki/Wikipédia:Le_Bistro</a></li>
 		</ul>
 
 		<h2 id="homonymes">Mes homonymes</h2>

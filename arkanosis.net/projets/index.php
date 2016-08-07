@@ -72,22 +72,29 @@ include $path . 'header.php';
 
 		<h2>Projets collaboratifs</h2>
 		<ul>
-			<li>Wikipédia (encyclopédie libre).
+			<li>Wikimedia.
 				<ul>
-					<li>Site francophone : <a href="http://fr.wikipedia.org/" title="Wikipédia francophone">http://fr.wikipedia.org/</a></li>
-					<li>Site global : <a href="http://meta.wikipedia.org" title="Wikipédia global">http://meta.wikipedia.org/</a></li>
+					<li>Wikipédia francophone (encyclopédie libre) : <a href="https://fr.wikipedia.org/" title="Wikipédia francophone">https://fr.wikipedia.org/</a></li>
+					<li>Wikidata (base de connaissances libre) : <a href="https://wikidata.org/" title="Wikidata">https://wikidata.org/</a></li>
+					<li>Site global : <a href="https://meta.wikimedia.org" title="Wikimedia meta">https://meta.wikimedia.org/</a></li>
+				</ul>
+			</li>
+			<li>shedskin (compilateur de Python vers C++ en Python).
+				<ul>
+					 <li>Site officiel : <a href="https://shedskin.github.io/" title="Site officiel de shedskin" lang="en">http://shedskin.github.io/</a></li>
+					 <li>Liste de diffusion : <a href="https://groups.google.com/group/shedskin-discuss" title="Liste de diffusion de shedskin" lang="en">https://groups.google.com/group/shedskin-discuss</a></li>
+				</ul>
+			</li>
+			<li>REGOVAR (recherche de variants exomiques).
+				<ul>
+					 <li>Site officiel : <a href="http://regovar.org/" title="Site officiel de REGOVAR" lang="fr">http://regovar.org/</a></li>
+					 <li>Liste de diffusion : <a href="https://groups.google.com/group/regovar-dev" title="Liste de diffusion de REGOVAR" lang="fr">https://groups.google.com/group/regovar-dev</a></li>
 				</ul>
 			</li>
 			<li>dcompiler (compilateur de D en D).
 				<ul>
 					<li>Site officiel : <a href="http://trac-hg.assembla.com/dcompiler" title="Site officiel de dcompiler" lang="en">http://trac-hg.assembla.com/dcompiler</a></li>
 					<li>Liste de diffusion : <a href="http://groups.google.com/group/dcompiler" title="Liste de diffusion de dcompiler" lang="fr">http://groups.google.com/group/dcompiler</a></li>
-				</ul>
-			</li>
-			<li>shedskin (compilateur de Python vers C++ en Python).
-				<ul>
-					 <li>Site officiel : <a href="http://code.google.com/p/shedskin/" title="Site officiel de shedskin" lang="en">http://code.google.com/p/shedskin/</a></li>
-					 <li>Liste de diffusion : <a href="http://groups.google.com/group/shedskin-discuss" title="Liste de diffusion de shedskin" lang="en">http://groups.google.com/group/shedskin-discuss</a></li>
 				</ul>
 			</li>
 			<li>FreeArc (compresseur et archiveur écrit en Haskell).

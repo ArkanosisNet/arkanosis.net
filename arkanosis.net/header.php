@@ -47,7 +47,7 @@ if (!isset($path))
 		<meta name="robots" content="ALL" />
 		<meta name="revisit-after" content="7 days" />
 		<meta name="distribution" content="global" />
-		<meta name="identifier-url" content="http://arkanosis.net" />
+		<meta name="identifier-url" content="https://arkanosis.net" />
 
 		<link rev="made" href="mailto:webmaster@arkanosis.net" />
 		<link rel="Contents" href="./" />

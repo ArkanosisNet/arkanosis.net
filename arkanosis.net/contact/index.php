@@ -27,9 +27,9 @@ include $path . 'header.php';
 			</li>
 			<li>Page de discussion Wikimedia
 				<ul>
-					<li><em><a href="http://fr.wikipedia.org/wiki/Discussion_utilisateur:Arkanosis">http://fr.wikipedia.org/wiki/Discussion_utilisateur:Arkanosis</a></em> pour les messages liés à Wikipédia</li>
-					<li><em><a href="http://wikidata.org/wiki/User_talk:Arkanosis">http://wikidata.org/wiki/User_talk:Arkanosis</a></em> pour les messages liés à Wikidata</li>
-					<li><em><a href="http://meta.wikimedia.org/wiki/User_talk:Arkanosis">http://meta.wikimedia.org/wiki/User_talk:Arkanosis</a></em> pour les messages liés aux projets Wikimedia en général</li>
+					<li><em><a href="https://fr.wikipedia.org/wiki/Discussion_utilisateur:Arkanosis">https://fr.wikipedia.org/wiki/Discussion_utilisateur:Arkanosis</a></em> pour les messages liés à Wikipédia</li>
+					<li><em><a href="https://wikidata.org/wiki/User_talk:Arkanosis">https://wikidata.org/wiki/User_talk:Arkanosis</a></em> pour les messages liés à Wikidata</li>
+					<li><em><a href="https://meta.wikimedia.org/wiki/User_talk:Arkanosis">https://meta.wikimedia.org/wiki/User_talk:Arkanosis</a></em> pour les messages liés aux projets Wikimedia en général</li>
 				</ul>
 			</li>
 			<li>Téléphone / <acronym title="Short Message Service">SMS</acronym><br />
@@ -39,7 +39,7 @@ include $path . 'header.php';
 		</ul>
 
 		<p>
-			L'empreinte de <a href="http://arkanosis.net/jroquet.pub.asc">ma clef <acronym title="Pretty Good Privacy">PGP</acronym></a> est <code>FA49 0B15 D054 C7E8 3F70  B040 8C14 5ABA C11F A702</code>.
+			L'empreinte de <a href="https://arkanosis.net/jroquet.pub.asc">ma clef <acronym title="Pretty Good Privacy">PGP</acronym></a> est <code>FA49 0B15 D054 C7E8 3F70  B040 8C14 5ABA C11F A702</code>.
 		</p>
 
 		<p>

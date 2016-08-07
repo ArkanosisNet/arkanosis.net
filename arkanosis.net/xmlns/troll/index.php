@@ -26,7 +26,7 @@ include $path . 'header.php';
 			The idea came when I started a troll comparing the respective stability and performance of <a href="http://www.microsoft.com/WINDOWS/" title="Microsoft Windows' official website">Microsoft Windows</a> and <a href="http://www.gentoo.org/" title="Gentoo Linux's official website">Gentoo Linux</a>.<br />
 			I used to enclose my trolls between &lt;troll&gt; and &lt;/troll&gt; tags, and I realized it could be even funnier with an <abbr>XML</abbr> namespace:
 			<code>
-				&lt;troll xmlns="http://arkanosis.net/xmlns/troll"&gt;
+				&lt;troll xmlns="https://arkanosis.net/xmlns/troll"&gt;
 					Some critical remark
 				&lt;/troll&gt;
 			</code>
