@@ -2,9 +2,9 @@
 
 $lang = 'fr';
 
-$last_modified = 'Sat, 22 March 2014 00:00:00 GMT';
-$expires = 'Sat, 1 May 2014 20:36:13 GMT';
-$maj = '1<sup>er</sup> mai 2014';
+$last_modified = 'Wed, 18 January 2017 00:00:00 GMT';
+$expires = 'Sat, 18 February 2017 00:00:00 GMT';
+$maj = '18 janvier 2017';
 
 $abstract = 'Site personnel de Jérémie Roquet';
 $keywords = 'Arkanosis, arkanosis, ArKaNoS!S, jeremie, jérémie, Jérémie, Jeremie, roquet, ROQUET, Roquet, rocquet, roquet_j, high_b, High_B, thunderdrone, Thunderdrone, high_b_thunderdrone';
@@ -33,7 +33,7 @@ include 'header.php';
 		</p>
 
 		<p>
-			Je consacre une partie de mon temps libre à des projets personnels ou collaboratifs, notamment à l'encyclopédie libre <a href="https://fr.wikipedia.org/" title="Encyclopédie libre Wikipédia">Wikipédia</a>, à la base de connaissances libre <a href="https://wikidata.org/" title="Base de connaissances libre Wikidata">Wikidata</a>, au compilateur de Python vers C++ <a href="http://shedskin.github.io/" title="Compilateur Shed Skin">Shed Skin</a> et au logiciel de recherche de variants exomiques <a href="http://regovar.org/" title="Logiciel de recherche de variants exomiques REGOVAR" lang="fr">REGOVAR</a>.
+			Je consacre une partie de mon temps libre à des projets personnels ou collaboratifs, notamment à l'encyclopédie libre <a href="https://fr.wikipedia.org/" title="Encyclopédie libre Wikipédia">Wikipédia</a>, à la base de connaissances libre <a href="https://wikidata.org/" title="Base de connaissances libre Wikidata">Wikidata</a>, au compilateur de Python vers C++ <a href="https://shedskin.github.io/" title="Compilateur Shed Skin">Shed Skin</a> et au logiciel de recherche de variants exomiques et génomiques <a href="http://regovar.org/" title="Logiciel de recherche de variants exomiques REGOVAR" lang="fr">REGOVAR</a>.
 		</p>
 
 		<h2 id="maj">Dernières mises à jour</h2>
