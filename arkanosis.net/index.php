@@ -38,6 +38,10 @@ include 'header.php';
 
 		<h2 id="maj">Dernières mises à jour</h2>
 		<dl>
+			<dt>26 mars 2017</dt>
+			<dd>
+				Mise à jour du CV (janvier 2017).
+			</dd>
 			<dt>août 2016</dt>
 			<dd>
 				Passage en HTTPS ; l'adresse canonique du site devient <a href="https://arkanosis.net/" title="Site d'Arkanosis">https://arkanosis.net/</a>.
@@ -57,7 +61,7 @@ include 'header.php';
 		<ul>
 			<li>Informations personnelles
 				<ul>
-					<li><a href="./curriculum/cv.pdf" title="Télécharger le Curriculum Vitae d'Arkanosis (PDF)" xml:lang="en" lang="en"><em>Curriculum Vitae</em></a> (en anglais et au format PDF, mis à jour le 22 mars 2014)</li>
+					<li><a href="./curriculum/cv.pdf" title="Télécharger le Curriculum Vitae d'Arkanosis (PDF)"><em>Curriculum Vitae</em></a> (PDF, mis à jour le 9 janvier 2017)</li>
 					<li><a href="./etudes" title="Voir la liste des études suivies par Arkanosis">Liste des études suivies</a></li>
 					<li><a href="./entreprises" title="Voir la liste des entreprises dans lesquelles Arkanosis a travaillé">Liste des entreprises</a></li>
 					<li><a href="./projets" title="Voir la liste des projets en cours d'Arkanosis">Liste de projets en cours</a></li>
