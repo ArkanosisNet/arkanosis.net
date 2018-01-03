@@ -26,7 +26,7 @@
 			}
 		</script>
 		<noscript>
-			<p><img src="//analytics.arkanosis.net/piwik.php?idsite=1" style="border:0;" alt="" /></p>
+			<p><img src="//analytics.arkanosis.net/piwik.php?idsite=2" style="border:0;" alt="" /></p>
 		</noscript>
 		<!-- End Piwik Code -->
 
