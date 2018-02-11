@@ -1,4 +1,4 @@
 Contact: jroquet@arkanosis.net
 Encryption: https://arkanosis.net/jroquet.pub.asc
-Acknowledgements: 
-Disclosure: Full
+Signature: https://arkanosis.net/.well-known/security.txt.sig
+Acknowledgements:
