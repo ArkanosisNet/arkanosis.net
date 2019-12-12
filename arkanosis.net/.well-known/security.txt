@@ -1,4 +1,23 @@
-Contact: jroquet@arkanosis.net
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:jroquet@arkanosis.net
 Encryption: https://arkanosis.net/jroquet.pub.asc
-Signature: https://arkanosis.net/.well-known/security.txt.sig
-Acknowledgements:
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBCgAGBQJd8YkOAAoJEO0OCvEacfSYBYUP/0eVVYWF8T0Vh3EFBqQVVUVa
+k459hNTyjV58zBVKZrPrZUvKh76WKIRSHvmd8OPCRDJifQFBLyci/mGQeFq8n4mf
+RDS3eh0VW4vNEk+aO3umh4ugaszkeALpFJxu1BLQLBK445LZ2RoIVgsdr+njK5yj
+sU+K+oEh0YOIGPjIdyCeWuHxxye2Q34nEdMNuMHDzm8U6wzURxZS+MLIa+OKga8Q
+soxdO5i3CFFC51CLvteTP7eatUGxqFjC71IXOeIubBqgEViGHK39PWGLgsQovFEK
+pqXCkZIUk09chLTRK8AHgoRQjtlJjMXG5E0wPZiEm3vAlNXcPcAzf1+OaqC0ps3U
+4XYzND1MVEVFnSn19tTqTXqhcYrDtMrDhiH3jYL02qLsYcBqKSJl/9mSbIp3pmaC
+3GQrbh49ItqFjy6Wwa5mh1366x+kJ6iprJjFUsnBhOjdix3WeAYKbOvuGl37H4BK
+1gsCw7bmS5hO4w43E0B1Uow2HHrogDLsfSiTDt0G0CrNNP1kJ2htopEEjnaEGJpG
+e8x9c2UyGkuovf4efVq6Nsg5XepHOsy8T/79XYQyeBsUT4b4gjjylaXPvTC557z3
+FtQEE663dFfLizLJv6/VQLW65sVvr/2FldsDtD4afY+94txhc8OYLXKo6xXU9Dgx
+KAVnEC2AH22foq6gBsyI
+=l4xv
+-----END PGP SIGNATURE-----
