@@ -33,7 +33,7 @@ include 'header.php';
 		</p>
 
 		<p>
-			Je consacre une partie de mon temps libre à des projets personnels ou collaboratifs, notamment à l'encyclopédie libre <a href="https://fr.wikipedia.org/" title="Encyclopédie libre Wikipédia">Wikipédia</a>, à la base de connaissances libre <a href="https://wikidata.org/" title="Base de connaissances libre Wikidata">Wikidata</a>, au compilateur de Python vers C++ <a href="https://shedskin.github.io/" title="Compilateur Shed Skin">Shed Skin</a> et au logiciel de recherche de variants exomiques et génomiques <a href="http://regovar.org/" title="Logiciel de recherche de variants exomiques REGOVAR" lang="fr">REGOVAR</a>.
+			Je consacre une partie de mon temps libre à des projets personnels ou collaboratifs, notamment à l'encyclopédie libre <a href="https://fr.wikipedia.org/" title="Encyclopédie libre Wikipédia">Wikipédia</a>, à la base de connaissances libre <a href="https://wikidata.org/" title="Base de connaissances libre Wikidata">Wikidata</a>, au compilateur de Python vers C++ <a href="https://shedskin.github.io/" title="Compilateur Shed Skin">Shed Skin</a> et au logiciel de recherche de variants exomiques et génomiques <a href="https://regovar.github.io/" title="Logiciel de recherche de variants exomiques REGOVAR" lang="fr">REGOVAR</a>.
 		</p>
 
 		<h2 id="maj">Dernières mises à jour</h2>
