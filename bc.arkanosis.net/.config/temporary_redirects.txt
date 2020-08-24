@@ -1,0 +1,2 @@
+# NB: Changes to redirects are only taken into account when SaltStack is run
+^/(.*)$ https://arkanosis.net/contact/
