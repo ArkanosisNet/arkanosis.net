@@ -1,18 +1,51 @@
-<?php
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-$lang = 'en';
-$path = '../';
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-$last_modified = 'Mon, 17 Apr 2006 20:36:13 GMT';
-$expires = 'Fri, 27 Jul 2007 15:36:14 GMT';
-$maj = 'June, 13 2009';
+	<!--
+		Arkanosis Online v0.0
+		© 2007-2009 - Arkanosis
+		Webmaster Arkanosis (webmaster@arkanosis.net)
+	-->
 
-$abstract = 'Arkanosis\' personal website';
-$keywords = 'Arkanosis, arkanosis, ArKaNoS!S, jeremie, jérémie, Jérémie, Jeremie, roquet, ROQUET, Roquet, rocquet, roquet_j, high_b, High_B, thunderdrone, Thunderdrone, high_b_thunderdrone';
+	<head>
 
-include $path . 'header.php'
+		<title>Arkanosis.net - Arkanosis' personal website</title>
 
-?>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="fr" />
+
+		<meta http-equiv="Last-Modified" content="Mon, 17 Apr 2006 20:36:13 GMT" />
+		<meta http-equiv="Expires" content="Fri, 27 Jul 2007 15:36:14 GMT" />
+		<meta http-equiv="Pragma" content="public" />
+		<meta http-equiv="Cache-Control" content="must-revalidate" />
+
+		<meta name="title" content="Arkanosis.net" />
+		<meta name="subject" content="Arkanosis" />
+		<meta name="description" content="Arkanosis' personal website" />
+		<meta name="abstract" content="Arkanosis' personal website" />
+		<meta name="keywords" content="Arkanosis, arkanosis, ArKaNoS!S, jeremie, jérémie, Jérémie, Jeremie, roquet, ROQUET, Roquet, rocquet, roquet_j, high_b, High_B, thunderdrone, Thunderdrone, high_b_thunderdrone" />
+		<meta name="language" content="en" />
+		<meta name="rating" content="general" />
+		<meta name="author" content="Arkanosis" />
+		<meta name="revised" content="Arkanosis, June, 13 2009" />
+		<meta name="owner" content="Arkanosis" />
+		<meta name="reply-to" content="webmaster@arkanosis.net" />
+		<meta name="copyright" content="© 2009 - Arkanosis" />
+		<meta name="generator" content="Notepad++, Vim" />
+		<meta name="robots" content="ALL" />
+		<meta name="revisit-after" content="7 days" />
+		<meta name="distribution" content="global" />
+		<meta name="identifier-url" content="https://arkanosis.net" />
+
+		<link rev="made" href="mailto:webmaster@arkanosis.net" />
+		<link rel="Contents" href="./" />
+
+		<link type="text/css" rel="stylesheet" href="../styles/screen.css" media="screen,projection,tv" />
+
+	</head>
+
+	<body>
 
 		<h1>Welcome to the website of Arkanosis (Jérémie Roquet)</h1>
 
@@ -181,9 +214,38 @@ include $path . 'header.php'
 			Arkanosis
 		</p>
 
-<?php
+		<!-- Piwik -->
+		<script type="text/javascript">
+			var _paq = _paq || [];
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function() {
+				var u="//analytics.arkanosis.net/";
+				_paq.push(['setTrackerUrl', u+'piwik.php']);
+				_paq.push(['setSiteId', 2]);
+				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+				g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+			})();
+		</script>
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org",
+				"@type": "Person",
+				"givenName": "Jérémie",
+				"familyName": "Roquet",
+				"alternateName": "Arkanosis",
+				"jobTitle": "Artiste programmeur",
+				"gender": "http://schema.org/Male",
+				"birthDate": "1986-04-30",
+				"email": "jroquet@arkanosis.net",
+				"image": "https://arkanosis.net/images/arkanosis.jpg"
+			}
+		</script>
+		<noscript>
+			<p><img src="//analytics.arkanosis.net/piwik.php?idsite=2" style="border:0;" alt="" /></p>
+		</noscript>
+		<!-- End Piwik Code -->
 
-include $path . 'footer.php'
+	</body>
 
-?>
-
+</html>
