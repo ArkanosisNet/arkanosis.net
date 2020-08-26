@@ -1,9 +1,0 @@
-Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
-
-RewriteEngine On
-
-RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
-
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
