@@ -1,0 +1,2 @@
+# NB: Changes to redirects are only taken into account when SaltStack is run
+^/1/?$ https://arkanosis.fr/wikipedia/WikiConvFR22/Quand%20rester%20en%20lien%20avec%20la%20communaut%C3%A9%20pousse%20dans%20les%20bras%20des%20g%C3%A9ants%20du%20Web/
