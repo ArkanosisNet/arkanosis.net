@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://arkanosis.net/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://arkanosis.net/maj/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://arkanosis.net/curriculum/cv.pdf</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://arkanosis.net/contact/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://arkanosis.net/d/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://arkanosis.net/d/d_conference_20070715.pdf</loc>
-  <changefreq>weekly</changefreq>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://arkanosis.net/</loc>
+    <lastmod>2023-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arkanosis.net/maj/</loc>
+    <lastmod>2023-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://arkanosis.net/curriculum/cv.pdf</loc>
+    <lastmod>2023-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://arkanosis.net/contact/</loc>
+    <lastmod>2023-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://arkanosis.net/d/</loc>
+    <lastmod>2023-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://arkanosis.net/d/d_conference_20070715.pdf</loc>
+    <lastmod>2007-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
