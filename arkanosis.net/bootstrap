@@ -1,12 +1,15 @@
 #! /bin/sh
 
 bootstrap() {
-    if grep -qi 'ubuntu\|debian' /etc/os-release; then
+    if grep -qi 'debian' /etc/os-release; then
+        wget https://repo.saltproject.io/salt/py3/debian/11/amd64/latest/salt-archive-keyring.gpg -O /usr/share/keyrings/salt-archive-keyring.gpg
+        echo "deb [signed-by=/usr/share/keyrings/salt-archive-keyring.gpg arch=amd64] https://repo.saltproject.io/salt/py3/debian/11/amd64/latest bullseye main" > /etc/apt/sources.list.d/salt.list
+        apt update
         apt install -y salt-minion git
+        systemctl disable --now salt-minion
         git clone https://github.com/Arkanosis/Arkonf.git /root/Arkonf
         ln -s /root/Arkonf/saltstack/salt /srv/salt
         ln -s /root/Arkonf/saltstack/pillar /srv/pillar
-        apt update
         salt-call --local state.highstate
         apt upgrade -y
     elif grep -qi 'arch linux' /etc/os-release; then
